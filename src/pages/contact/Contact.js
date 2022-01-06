@@ -1,8 +1,20 @@
 import React from "react";
+import Header from "../../components/pageheader/PageHeader";
+import Footer from "../../components/footer/Footer";
 
 function Contact(){
     return(
-        <h2>CONTACT PAGINA</h2>
+
+        <section>
+
+            <Header/>
+
+            <h2> Dit is de contact pagina</h2>
+
+            <Footer/>
+
+        </section>
+
 
 
     );

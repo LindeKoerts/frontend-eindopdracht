@@ -1,7 +1,250 @@
-body {
-    background-color:#DDF0FF;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/* CSS Document */
+*, *::after, *::before {
+    box-sizing:border-box;
 }
 
-.white {
-    background-color: white;
+/**************************************************/
+/*-------------GENERAL style ELEMENTS-------------*/
+/* HIDE ELEMENTS*/
+.hide-elements {
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
+
+
+        body {
+            background-color: #DDF0FF;
+            padding: 1em;
+        }
+
+        .white {
+            background-color: white;
+            border-radius: 2em;
+            padding: 1em;
+            width: 98%;
+            height: 60em;
+        }
+
+        .white > img {
+            position: absolute;
+            top: 10em;
+            right: 0.8em;
+            width: 50%;
+        }
+
+        .resize1 {
+            height: auto;
+            float: right;
+            position: relative;
+            border-radius: 2em;
+        }
+
+        .start-text {
+            font-family: 'Montserrat', sans-serif;
+            color: black;
+            margin: 7em;
+            width: 50%;
+            position: absolute;
+
+        }
+
+        .roze {
+            border-radius: 2em;
+            background-color: #FCB4B4;
+            border-color: #FCB4B4;
+            text-align: center;
+            color: black;
+
+        }
+
+        .roze {
+            justify-content: center;
+            margin-right: 6em;
+        }
+
+        .text-resize {
+            font-size: 60px;
+        }
+
+        .text-resize1 {
+            font-size: 50px;
+        }
+
+        .homepage-text {
+            font-family: 'Montserrat', sans-serif;
+            color: black;
+            padding: 1px;
+            margin: 5em;
+            width: 600px;
+            font-size: 23px;
+
+        }
+
+        .resize2 {
+            height: auto;
+            float: left;
+            position: relative;
+        }
+
+        .resize2 {
+            position: absolute;
+            left: 0.8em;
+            width: 600px;
+            margin: 6em;
+        }
+
+        .heading2 {
+            float: right;
+            position: relative;
+
+        }
+
+        .heading2 {
+            position: absolute;
+            right: 0.8em;
+            width: 50%;
+            margin: 4.6em;
+        }
+
+        .heading2 {
+            font-family: 'Montserrat', sans-serif;
+            color: black;
+            width: 50%;
+            font-size: 23px;
+
+        }
+
+        .text2 {
+            float: right;
+            position: relative;
+        }
+
+        .text2{
+            position: absolute;
+            right: 0.8em;
+            width: 50%;
+            margin: 6em;
+        }
+
+        .text2 {
+            font-family: 'Montserrat', sans-serif;
+            color: black;
+            padding: 1px;
+            margin: 5em;
+            width: 50%;
+            font-size: 20px;
+
+        }
+
+        .roze2 {
+            border-radius: 2em;
+            background-color: #FCB4B4;
+            border-color: #FCB4B4;
+            text-align: center;
+            color: black;
+            float: end;
+
+        }
+
+        .roze2 {
+            justify-content: center;
+            margin-right: 6em;
+        }
+
+        .resize3 {
+            width: 250px;
+            height: auto;
+            float: inside;
+            position: relative;
+            left: 0.8em;
+            margin-left: 6em;
+
+        }
+
+        .row {
+            height: auto;
+            align-items: center;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .textpicture {
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+        }
+
+        .blue {
+            background-color: #DDF0FF ;
+            width: 100%;
+            height: 35em;
+
+        }
+
+        .blue2 {
+            background-color: #DDF0FF ;
+            width: 100%;
+            height: 45em;
+        }
+
+        .how-to {
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            font-size: 30px;
+            padding: 3%;
+        }
+
+        .column {
+            float: left;
+            width: 25%;
+            padding: 5px;
+        }
+
+        .white2 {
+            background-color: white;
+            border-radius: 2em;
+            width: 98%;
+            height: 35em;
+        }
+
+        .resize4 {
+            width: 30%;
+            float: left;
+            position: relative;
+        }
+
+        .resize4 {
+            position: absolute;
+            left: 0.8em;
+            margin: 6em;
+
+        }
+
+        .icon {
+            font-family: 'Montserrat', sans-serif;
+            color: black;
+            padding: 1px;
+            margin: 5em;
+            width: 50%;
+            font-size: 20px;
+        }
+
+        .icon {
+            position: absolute;
+            right: 0.8em;
+            width: 50%;
+            margin: 6em;
+        }
+
+
+
+

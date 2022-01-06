@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.fiets {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.whitebike {
+    background-color: white;
+    border-radius: 2em;
+    padding: 1em;
+    width: 98%;
+    height: 60em;
+}
+
+.route {
+    width: 35%;
+    position: absolute;
+
+}
+
+.city1 {
+    background-color: white;
+    border-radius: 2em;
+    width: 50%;
+    height: 20em;
+}
+
+.city1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.city2 {
+    background-color: white;
+    border-radius: 2em;
+    width: 50%;
+    height: 20em;
+}
+
+.city2 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.space {
+    background-color: #DDF0FF ;
+    width: 100%;
+    height: 2em;
+
+}
+
+.space2 {
+    background-color: #DDF0FF ;
+    width: 100%;
+    height: 15em;
+
+}

@@ -1,20 +1,17 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
+import './PageHeader.css';
 
 function Header(){
     return(
         <nav>
             <div className="nav-container">
-                <h2>#WhatToWear.</h2>
+                <NavLink className="logo" to="/" exact activeClassName="active-link"><h2>#WhatToWear.</h2></NavLink>
 
-                <ul>
-                    <li>
-                        <NavLink to="/" exact activeClassName="active-link">Home</NavLink>
-                    </li>
+                <ul className="nav-links">
 
                     <li>
                         <NavLink to="/opdefiets" exact activeClassName="active-link">Op de fiets</NavLink>
-
                     </li>
 
                     <li>

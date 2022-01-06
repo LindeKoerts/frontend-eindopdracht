@@ -1,8 +1,22 @@
 import React from "react";
+import Header from "../../components/pageheader/PageHeader";
+import Footer from "../../components/footer/Footer";
 
 function Aanmelden(){
     return(
-        <h2>Aanmelden</h2>
+        <section>
+
+            <Header/>
+
+            <h2> Dit is de aanmeldpagina</h2>
+
+            <Footer/>
+
+        </section>
+
+
+
+
 
 
     );
